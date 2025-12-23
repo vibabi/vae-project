@@ -1,0 +1,13 @@
+{
+    "project_name": "vae_celeba",
+    "data_path": "data/celeba/img_align_celeba/img_align_celeba",
+    "partition_path": "data/celeba/list_eval_partition.csv",
+    "img_size": 64,
+    "batch_size": 64,
+    "latent_dim": 128,
+    "learning_rate": 0.0005,
+    "epochs": 15,
+    "beta": 1.2,
+    "device": "cuda",
+    "seed": 42
+}
